@@ -11,6 +11,8 @@
     <Component7/>
     <Component8/>
     <Component9/>
+
+    <ComplexComponent1/>
   </div>
 </template>
 
@@ -26,6 +28,8 @@ import Component6 from './components/Component6.vue';
 import Component7 from './components/Component7.vue';
 import Component8 from './components/Component8.vue';
 import Component9 from './components/Component9.vue';
+
+import ComplexComponent1 from './components/ComplexComponent1.vue';
 
 import { helper1 } from './helpers/helper1'
 import { helper2 } from './helpers/helper2'
@@ -45,7 +49,8 @@ export default Vue.extend({
     Component6,
     Component7,
     Component8,
-    Component9
+    Component9,
+    ComplexComponent1
   },
   created() {
     helper1()
