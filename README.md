@@ -1,6 +1,7 @@
 # vti-failures-1699
 
 Repro case for https://github.com/vuejs/vetur/issues/1699
+
 Where a certain number of files causes `vti diagnostics` to fail
 
 ## To Reproduce
