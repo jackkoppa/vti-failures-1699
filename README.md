@@ -12,12 +12,12 @@ npm ci
 npm run vti
 
 # On local machine (system info below),
-# fails ~80% of the time as described in vetur/issues/1699
+# fails 100% of the time as described in vetur/issues/1699
 # no JS exceptions, just exit code 1
 
-# Now, change `ComplexComponent5.vue` ->  `ComplexComponent5.txt`
+# Now, change one of the ComplexComponent files from .vue -> .txt
 # thus removing it from vti observation, and run vti again
-mv src/components/ComplexComponent5.vue src/components/ComplexComponent5.txt
+mv src/components/ComplexComponent4.vue src/components/ComplexComponent4.txt
 npm run vti
 
 # On local machine, succeeds 100% of the time
