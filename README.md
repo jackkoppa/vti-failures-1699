@@ -22,6 +22,13 @@ mv src/components/ComplexComponent4.vue src/components/ComplexComponent4.txt
 npm run vti
 
 # On local machine, succeeds 100% of the time
+
+# Finally, if you *still* see a failure message, we can try one more thing:
+git checkout -- .
+# This branch has even fewer vti-checked files,
+# and it would be very surprising if the vti command still fails
+git checkout minimal-file-count-for-additional-testing
+npm run vti
 ```
 
 Can see [logs/detailed_repro_logs(2.17.20).md](./logs/detailed_repro_logs(2.17.20).md) for local reproduction results
