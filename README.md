@@ -38,4 +38,10 @@ Can see [logs/detailed_repro_logs(2.17.20).md](./logs/detailed_repro_logs(2.17.2
 
 ## Notes
 
-If reproduction does not end up being easy across machines, I may need some help getting whatever the most useful memory profile is
+* If reproduction does not end up being easy across machines, I may need some help getting whatever the most useful memory profile is
+
+* Initial repo files created with:
+
+```bash
+npx -p @vue/cli@latest vue create vti-failures-1699 --inlinePreset '{"useConfigFiles": true,"plugins": {"@vue/cli-plugin-typescript": {"classComponent": false}}}'
+```
