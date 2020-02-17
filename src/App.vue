@@ -13,14 +13,14 @@
     <Component9/>
 
     <ComplexComponent1/>
-    <ComplexComponent2/>
+    <!-- <ComplexComponent2/>
     <ComplexComponent3/>
     <ComplexComponent4/>
     <ComplexComponent5/>
     <ComplexComponent6/>
     <ComplexComponent7/>
     <ComplexComponent8/>
-    <ComplexComponent9/>
+    <ComplexComponent9/> -->
   </div>
 </template>
 
@@ -38,14 +38,14 @@ import Component8 from './components/Component8.vue';
 import Component9 from './components/Component9.vue';
 
 import ComplexComponent1 from './components/ComplexComponent1.vue';
-import ComplexComponent2 from './components/ComplexComponent2.vue';
-import ComplexComponent3 from './components/ComplexComponent3.vue';
-import ComplexComponent4 from './components/ComplexComponent4.vue';
-import ComplexComponent5 from './components/ComplexComponent5.vue';
-import ComplexComponent6 from './components/ComplexComponent6.vue';
-import ComplexComponent7 from './components/ComplexComponent7.vue';
-import ComplexComponent8 from './components/ComplexComponent8.vue';
-import ComplexComponent9 from './components/ComplexComponent9.vue';
+// import ComplexComponent2 from './components/ComplexComponent2.vue';
+// import ComplexComponent3 from './components/ComplexComponent3.vue';
+// import ComplexComponent4 from './components/ComplexComponent4.vue';
+// import ComplexComponent5 from './components/ComplexComponent5.vue';
+// import ComplexComponent6 from './components/ComplexComponent6.vue';
+// import ComplexComponent7 from './components/ComplexComponent7.vue';
+// import ComplexComponent8 from './components/ComplexComponent8.vue';
+// import ComplexComponent9 from './components/ComplexComponent9.vue';
 
 import { helper1 } from './helpers/helper1'
 import { helper2 } from './helpers/helper2'
@@ -67,14 +67,14 @@ export default Vue.extend({
     Component8,
     Component9,
     ComplexComponent1,
-    ComplexComponent2,
-    ComplexComponent3,
-    ComplexComponent4,
-    ComplexComponent5,
-    ComplexComponent6,
-    ComplexComponent7,
-    ComplexComponent8,
-    ComplexComponent9
+    // ComplexComponent2,
+    // ComplexComponent3,
+    // ComplexComponent4,
+    // ComplexComponent5,
+    // ComplexComponent6,
+    // ComplexComponent7,
+    // ComplexComponent8,
+    // ComplexComponent9
   },
   created() {
     helper1()
