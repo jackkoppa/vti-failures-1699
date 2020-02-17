@@ -27,6 +27,12 @@ import Component7 from './components/Component7.vue';
 import Component8 from './components/Component8.vue';
 import Component9 from './components/Component9.vue';
 
+import { helper1 } from './helpers/helper1'
+import { helper2 } from './helpers/helper2'
+import { helper3 } from './helpers/helper3'
+import { helper4 } from './helpers/helper4'
+import { helper5 } from './helpers/helper5'
+
 export default Vue.extend({
   name: 'App',
   components: {
@@ -40,6 +46,13 @@ export default Vue.extend({
     Component7,
     Component8,
     Component9
+  },
+  created() {
+    helper1()
+    helper2()
+    helper3()
+    helper4()
+    helper5()
   }
 });
 </script>
