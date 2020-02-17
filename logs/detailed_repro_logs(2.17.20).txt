@@ -1,0 +1,268 @@
+jkoppa vti-failures-1699 (master)$ git pull
+Already up to date.
+jkoppa vti-failures-1699 (master)$ npm ci
+npm WARN prepare removing existing node_modules/ before installation
+
+> yorkie@2.0.0 install /Users/jkoppa/Development/Personal/vti-failures-1699/node_modules/yorkie
+> node bin/install.js
+
+setting up Git hooks
+done
+
+
+> fsevents@1.2.11 install /Users/jkoppa/Development/Personal/vti-failures-1699/node_modules/fsevents
+> node-gyp rebuild
+
+No receipt for 'com.apple.pkg.CLTools_Executables' found at '/'.
+
+No receipt for 'com.apple.pkg.DeveloperToolsCLILeo' found at '/'.
+
+No receipt for 'com.apple.pkg.DeveloperToolsCLI' found at '/'.
+
+gyp: No Xcode or CLT version detected!
+gyp ERR! configure error 
+gyp ERR! stack Error: `gyp` failed with exit code: 1
+gyp ERR! stack     at ChildProcess.onCpExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:351:16)
+gyp ERR! stack     at ChildProcess.emit (events.js:210:5)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+gyp ERR! System Darwin 19.3.0
+gyp ERR! command "/usr/local/Cellar/node/12.12.0/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /Users/jkoppa/Development/Personal/vti-failures-1699/node_modules/fsevents
+gyp ERR! node -v v12.12.0
+gyp ERR! node-gyp -v v5.0.7
+gyp ERR! not ok 
+
+> core-js@2.6.11 postinstall /Users/jkoppa/Development/Personal/vti-failures-1699/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> ejs@2.7.4 postinstall /Users/jkoppa/Development/Personal/vti-failures-1699/node_modules/ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+added 1465 packages in 13.122s
+jkoppa vti-failures-1699 (master)$ npm cache verify
+Cache verified and compressed (~/.npm/_cacache):
+Content verified: 10500 (735084135 bytes)
+Content garbage-collected: 19 (1019146 bytes)
+Index entries: 19209
+Finished in 11.362s
+jkoppa vti-failures-1699 (master)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! vti-failures-1699@0.1.0 vti: `vti diagnostics`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the vti-failures-1699@0.1.0 vti script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jkoppa/.npm/_logs/2020-02-17T18_21_28_806Z-debug.log
+jkoppa vti-failures-1699 (master)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! vti-failures-1699@0.1.0 vti: `vti diagnostics`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the vti-failures-1699@0.1.0 vti script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jkoppa/.npm/_logs/2020-02-17T18_21_34_877Z-debug.log
+jkoppa vti-failures-1699 (master)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! vti-failures-1699@0.1.0 vti: `vti diagnostics`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the vti-failures-1699@0.1.0 vti script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jkoppa/.npm/_logs/2020-02-17T18_21_40_393Z-debug.log
+jkoppa vti-failures-1699 (master)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! vti-failures-1699@0.1.0 vti: `vti diagnostics`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the vti-failures-1699@0.1.0 vti script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jkoppa/.npm/_logs/2020-02-17T18_21_45_897Z-debug.log
+jkoppa vti-failures-1699 (master)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! vti-failures-1699@0.1.0 vti: `vti diagnostics`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the vti-failures-1699@0.1.0 vti script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jkoppa/.npm/_logs/2020-02-17T18_22_08_768Z-debug.log
+jkoppa vti-failures-1699 (master)$ mv src/components/ComplexComponent4.vue src/components/ComplexComponent4.txt
+jkoppa vti-failures-1699 (master *%)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master *%)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master *%)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master *%)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master *%)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master *%)$ npm run vti
+
+> vti-failures-1699@0.1.0 vti /Users/jkoppa/Development/Personal/vti-failures-1699
+> vti diagnostics
+
+Getting Vetur diagnostics
+Loading Vetur in current directory: /Users/jkoppa/Development/Personal/vti-failures-1699
+
+====================================
+Loaded bundled typescript@3.7.5.
+Vetur initialized
+
+====================================
+VTI found no error
+jkoppa vti-failures-1699 (master *%)$ 

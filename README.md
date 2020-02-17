@@ -12,7 +12,7 @@ npm ci
 npm run vti
 
 # On local machine (system info below),
-# fails 100% of the time as described in vetur/issues/1699
+# fails ~5/6 times as described in vetur/issues/1699
 # no JS exceptions, just exit code 1
 
 # Now, change one of the ComplexComponent files from .vue -> .txt
@@ -22,6 +22,8 @@ npm run vti
 
 # On local machine, succeeds 100% of the time
 ```
+
+Can see [logs/detailed_repro_logs(2.17.20).md](./logs/detailed_repro_logs(2.17.20).md) for local reproduction results
 
 ## Local system info
 
