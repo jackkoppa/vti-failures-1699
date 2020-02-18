@@ -1,5 +1,7 @@
 # vti-failures-1699
 
+**Update**: See [Use of `sudo`](#Use-of-sudo) for current workaround
+
 Repro case for https://github.com/vuejs/vetur/issues/1699
 
 Where a certain number of files causes `vti diagnostics` to fail
@@ -52,3 +54,8 @@ Can see [logs/detailed_repro_logs(2.17.20).md](./logs/detailed_repro_logs(2.17.2
 ```bash
 npx -p @vue/cli@latest vue create vti-failures-1699 --inlinePreset '{"useConfigFiles": true,"plugins": {"@vue/cli-plugin-typescript": {"classComponent": false}}}'
 ```
+
+## Use of `sudo`
+
+* Per [this comment](https://github.com/vuejs/vetur/issues/1699#issuecomment-587334315) from @dkonchekov, it appears that running with `sudo` - i.e. `sudo npm run vti` - removes whatever process-specific upper bound is causing the failure. In all cases tested thus far, `sudo` solves all problems demo-ed by this repo, regardless of component count.
+* Next steps, then, are to diagnose the upper bound that `sudo` removes, so that the command can adjust memory/file/thread/etc. usage to not require sudo; will continue to be discussed in [1699](https://github.com/vuejs/vetur/issues/1699)
